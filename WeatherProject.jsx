@@ -9,7 +9,7 @@ const WeatherProject = () => {
     if (!city) return;             //if we can not enter city name then it can't search
     try{
     let res = await fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=7ebfdd692635dda19b4610e9c094c8a3&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=...............&units=metric`
     );
 
     let finalRes = await res.json();
